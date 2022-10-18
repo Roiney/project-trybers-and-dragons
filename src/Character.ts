@@ -32,7 +32,7 @@ class Character implements Fighter {
     return this._race;
   }
 
-  public get archetype(): Archetype {
+  public get archetype(): Archetypes {
     return this._archetype;
   }
 
